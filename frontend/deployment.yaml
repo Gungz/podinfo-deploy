@@ -24,7 +24,7 @@ spec:
     spec:
       containers:
       - name: frontend
-        image: stefanprodan/podinfo:6.0.0
+        image: ghcr.io/stefanprodan/podinfo:6.0.0 # {"$imagepolicy": "wego-system:podinfo"}
         imagePullPolicy: IfNotPresent
         ports:
         - name: http
